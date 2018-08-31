@@ -33,5 +33,8 @@ Partial Class Parent
         Me.Text = "Parent"
         Me.ResumeLayout(False)
 
+
+        Dim MyCompornent As New CompornentBase
+        Me.Controls.Add(MyCompornent)
     End Sub
 End Class
